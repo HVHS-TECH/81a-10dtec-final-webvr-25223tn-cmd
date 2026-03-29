@@ -3,19 +3,16 @@
   <head>
 
 <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script>
-    
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script> 
+
+
   </head>
     <body>
     <a-scene>
-      <a-sky color="lightblue"></a-sky>
+      <a-sky src="outer-space-background.jpg"></a-sky>
       
-       <!-- Put this inside the <a-scene> -->
-      <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
-      ></a-entity>
+      <a-entity ply-model="src: spaceship.ply" position="-5.91223 -2.71575 7.12294" rotation="-87.31819502014233 -8.868813710830013 8.033441245529273"></a-entity>
                  
     </a-scene>
   </body>
